@@ -184,6 +184,18 @@ WEATHER_API=http://127.0.0.1:8000/clima/tempo/weather/
 
 ---
 
+# 🌐 API utilizada
+
+Este projeto consome a **ClimaTempoAPI**, uma API REST desenvolvida por mim utilizando **FastAPI**. Ela é responsável por consultar a **Open-Meteo API**, processar os dados meteorológicos e disponibilizar uma interface simplificada para o agente de IA.
+
+**Repositório da ClimaTempoAPI:**
+
+👉 **https://github.com/Gideval/Projetos-Python/tree/main/ClimaTempoAPI/app**
+
+Essa separação de responsabilidades permite que o agente se concentre na interação com o usuário, enquanto a API encapsula toda a lógica de comunicação com o serviço meteorológico externo.
+
+---
+
 # ▶️ Executando
 
 Primeiro execute a API de clima.
